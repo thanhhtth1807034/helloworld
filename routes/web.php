@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return 'Contact us';
 });
+
+Route::get('/another-feature', function () {
+    return 'feature us';
+});
